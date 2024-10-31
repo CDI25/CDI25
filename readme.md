@@ -42,9 +42,10 @@ python exp_script.py
 * Weer: https://www.knmi.nl/nederland-nu/klimatologie/uurgegevens/
 
 # Ground truth of real missing values
-* GPS: We have repaired the original GPS data according to the actual location, the repaired file is "location_ground_truth.csv” and the original missing data is "location_missing.csv”, where ``-200" indicates the observation is missing.
-* IMU: The original data is “data_processed.csv”, we use the higher-precision sensors' reading to get the ground truth, the process can be found in “data_preprocess.py”. 
-* Weer: The original data is in folder "weer", we use the nearest station's reading to get the ground truth, the process can be found in “data_preprocess.py”. 
+* GPS: We have repaired the original GPS data according to the actual location. The corrected file is "location_ground_truth.csv", while the original file with missing data is "location_missing.csv". In this context, the value “-200” indicates that the observation is missing.
+* IMU: The original data is contained in "data_processed.csv". We utilized readings from higher-precision sensors to establish the ground truth. The processing details can be found in "data_preprocess.py".
+* Weer: The original data is located in the "weer" folder. We used readings from the nearest station to determine the ground truth. The related processing information is also available in "data_preprocess.py".
+
 
 
 ### Preprocessing the MIMIC-III dataset
