@@ -12,7 +12,6 @@
   - averaged maximal self-connected contexts number of various scenarios；
   - averaged imputation rounds of various scenarios；
   - intratemporal and intertemporal patterns in each dataset
-+ Full.pdf: the full version of our manuscript
 + requirments.txt: python version and libraries requirements
 
 ## Demo Script Running
